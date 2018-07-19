@@ -17,13 +17,14 @@ public class Main {
         //i am feeling great
         //>>> END
         Scanner sca = new Scanner(System.in);
-        System.out.println("What is your problem?");
+        System.out.println("Good day. What is your problem? ");
         String userInput;
         userInput = sca.nextLine();
         while (!userInput.equalsIgnoreCase("Q")) {
             //System.out.println(userInput);
-            System.out.println("What is your problem?");
+            System.out.println("Enter your response here or Q to quit: ");
             userInput = sca.nextLine();
+            //System.out.println("Your response is : " + userInput);
             if (userInput.contains("I am feeling great")) {
                // System.out.println("Thank you");
                 break;
